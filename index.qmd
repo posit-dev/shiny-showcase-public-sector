@@ -23,4 +23,4 @@ Shiny helps R and Python users build powerful, interactive web apps. {{< var ver
 
 ::: 
 
-To report an issue with this page, or request an app to be added, please open an [Issue on GitHub]({{< issue-url >}}).
+To report an issue with this page, or request an app to be added, please open an [Issue on GitHub]({{< var issue-url >}}).
