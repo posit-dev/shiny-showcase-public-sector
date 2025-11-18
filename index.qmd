@@ -1,5 +1,6 @@
 ---
-title: Shiny in {{< var vertical >}}
+pagetitle: Shiny in {{< var vertical >}}
+title: '{{< var vertical >}}'
 format: 
   html:
     page-layout: full
