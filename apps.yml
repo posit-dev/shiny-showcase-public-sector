@@ -1,0 +1,26 @@
+- category: Category 1
+  tiles:
+    - org: Organization
+      title: App title
+      url: https://gallery.shinyapps.io/template-dashboard-tips1/
+      description: This information comes from `apps.yml` in the repo root
+      thumbnail: example-thumbnail-2400x1600.png
+      order: 1.0
+      tags: app, example
+    - org: Organization
+      title: App title
+      url: https://gallery.shinyapps.io/template-dashboard-tips1/
+      description: This information comes from `apps.yml` in the repo root
+      thumbnail: example-thumbnail-2400x1600.png
+      order: 1.0
+      tags: app, example  
+
+- category: Category 2
+  tiles:
+    - org: Organization
+      title: App title
+      url: https://gallery.shinyapps.io/template-dashboard-tips1/
+      description: This information comes from `apps.yml` in the repo root
+      thumbnail: example-thumbnail-2400x1600.png
+      order: 1.0
+      tags: app, example

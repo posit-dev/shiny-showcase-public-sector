@@ -1,0 +1,20 @@
+color:
+  palette:
+    posit-blue: "#447099"
+  primary: posit-blue
+typography:
+  fonts:
+    - family: "Open Sans"
+      source: google
+      weight: [300, 400, 600]
+    - family: "Source Code Pro"
+      source: google
+  base: 
+    family: "Open Sans"
+    weight: 400
+  monospace: "Source Code Pro"
+  headings:
+    weight: 300
+    line-height: 120%
+  link:
+    decoration: underline
