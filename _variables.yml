@@ -1,6 +1,6 @@
 vertical: Public Sector
-vertical-url: https://posit.co/use-cases/public-sector/
+vertical-url: https://posit.co/use-cases/public-sector/?utm_source=quarto&utm_medium=web&utm_term=pubsec&utm_content=shiny-gallery
 issue-url: https://github.com/posit-dev/shiny-showcase-public-sector/issues
 vertical-description: |
-   Data scientists in the Public Sector, including ... use Shiny to convey critical information and make decisions that make the world better and safer.
+    Shiny and Quarto help R and Python users build powerful, interactive web apps and high-quality documents. This gallery showcases how data scientists in the public sector utilize these tools to transform complex code into accessible insights, making government data more transparent and actionable for all.
    

@@ -15,7 +15,7 @@ resources:
   - shiny-solo.png
 ---
 
-Shiny helps R and Python users build powerful, interactive web apps. {{< var vertical-description >}}
+{{< var vertical-description >}}
 
 [Learn more about Shiny](https://shiny.posit.co/){.call-to-action} [Learn more about Posit and {{< var vertical >}}]({{< var vertical-url >}}){.call-to-action}
 
