@@ -1,7 +1,9 @@
 color:
   palette:
     posit-blue: "#447099"
-  primary: posit-blue
+    posit-green: "#72994E"
+    posit-dark-green-1: "#57733D"
+  primary: posit-dark-green-1
 typography:
   fonts:
     - family: "Open Sans"
