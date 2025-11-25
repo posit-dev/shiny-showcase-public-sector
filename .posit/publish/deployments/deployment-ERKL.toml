@@ -2,7 +2,7 @@
 '$schema' = 'https://cdn.posit.co/publisher/schemas/posit-publishing-record-schema-v3.json'
 server_type = 'connect'
 server_url = 'https://pub.current.posit.team'
-client_version = '1.26.0'
+client_version = '1.27.0'
 created_at = ''
 dismissed_at = ''
 type = 'quarto-static'
@@ -11,9 +11,9 @@ id = '008fe642-4cad-4dc4-9dcd-9157b4181fc9'
 dashboard_url = 'https://pub.current.posit.team/connect/#/apps/008fe642-4cad-4dc4-9dcd-9157b4181fc9'
 direct_url = 'https://pub.current.posit.team/content/008fe642-4cad-4dc4-9dcd-9157b4181fc9/'
 logs_url = 'https://pub.current.posit.team/connect/#/apps/008fe642-4cad-4dc4-9dcd-9157b4181fc9/logs'
-deployed_at = '2025-11-21T09:14:30-08:00'
-bundle_id = '9044'
-bundle_url = 'https://pub.current.posit.team/__api__/v1/content/008fe642-4cad-4dc4-9dcd-9157b4181fc9/bundles/9044/download'
+deployed_at = '2025-11-25T14:25:48-08:00'
+bundle_id = '9141'
+bundle_url = 'https://pub.current.posit.team/__api__/v1/content/008fe642-4cad-4dc4-9dcd-9157b4181fc9/bundles/9141/download'
 files = [
   '.posit/publish/Shiny in Public Sector-S0M5.toml',
   '.posit/publish/deployments/deployment-ERKL.toml',
