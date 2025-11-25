@@ -1,49 +1,3 @@
-- category: Public Health
-  tiles:
-    - org: California Department of Public Health
-      title: California Communicable diseases Assessment Tool
-      url: https://skylab4.cdph.ca.gov/calcat/
-      description: Modeling Communicable Diseases to Inform State and Local Response
-      thumbnail: skylab4.cdph.ca.gov_calcat_.png
-      order: 7.0
-      tags: state, covid-19, influenza, infection, map, surveillance, california,
-        county, science
-    - org: California Department of Public Health
-      title: Opioid Overdose Survey
-      url: https://skylab.cdph.ca.gov/ODdash/
-      description: This app provides data on state and local level drug-related overdose
-        outcomes for California, including deaths, emergency department visits, and
-        hospitalizations, as well as opioid and select other drug prescription data.
-      thumbnail: skylab.cdph.ca.gov_ODdash__tab=CA.png
-      order: 8.0
-      tags: opoid, overdose, surveillance, california, state, county,
-    - org: Harvard
-      title: COVID-19 Monitoring in Puerto Rico
-      url: https://rconnect.dfci.harvard.edu/covidpr/
-      description: This tool provides a detailed summary of the COVID-19 cases in
-        Puerto Rico provided by the PR Department of Health.
-      thumbnail: rconnect.dfci.harvard.edu_covidpr_.png
-      order: 9.0
-      tags: spanish, covid-19
-    - org: California Department of Public Health
-      title: CCB (Disease and Cost Engine)
-      url: https://skylab.cdph.ca.gov/communityBurden/#tab-2190-1
-      description: A tool that can explore data on burden of disease in multiple levels
-        of geographic granularity in order to answer and generate questions, both
-        simple and complex, about the intersection between health disparities and
-        place.
-      thumbnail: skylab.cdph.ca.gov_communityBurden_.png
-      order: 10.0
-      tags: map, trend, social determinants of health
-    - org: Oregon Health Authority
-      title: Oregon Injury Prevention Dashboard
-      url: https://oregoninjurydata.shinyapps.io/injury/
-      description: Oregon’s Injury and Violence Prevention Program uses data to understand
-        when and why violence, unintended injuries, and death occur.
-      thumbnail: oregoninjurydata.shinyapps.io_injury_.png
-      order: 11.0
-      tags: state, injury, map
-  order: 1.0
 - category: Natural Resources
   tiles:
     - org: USGS
@@ -92,9 +46,88 @@
       thumbnail: connect.fisheries.noaa.gov_ANRC_.png
       order: 5.0
       tags: modeling, simulation, map, science
+    - org: University of Wisconsin-Madison
+      title: Agricultural Forecasting and Advisory System
+      url: https://connect.doit.wisc.edu/ag_forecasting/
+      description: This application provides weather-based forecasting and risk assessments
+        for various crop diseases, helping farmers, crop advisors, and agricultural
+        researchers to make data-driven decisions.
+      thumbnail: connect.doit.wisc.edu_ag_forecasting_.png.png
+      order: 6.0
+      tags: agriculture, science
+  order: 1.0
+- category: Public Health
+  tiles:
+    - org: California Department of Public Health
+      title: California Communicable diseases Assessment Tool
+      url: https://skylab4.cdph.ca.gov/calcat/
+      description: Modeling Communicable Diseases to Inform State and Local Response
+      thumbnail: skylab4.cdph.ca.gov_calcat_.png
+      order: 7.0
+      tags: state, covid-19, influenza, infection, map, surveillance, california,
+        county, science
+    - org: California Department of Public Health
+      title: Opioid Overdose Survey
+      url: https://skylab.cdph.ca.gov/ODdash/
+      description: This app provides data on state and local level drug-related overdose
+        outcomes for California, including deaths, emergency department visits, and
+        hospitalizations, as well as opioid and select other drug prescription data.
+      thumbnail: skylab.cdph.ca.gov_ODdash__tab=CA.png
+      order: 8.0
+      tags: opoid, overdose, surveillance, california, state, county,
+    - org: Harvard
+      title: COVID-19 Monitoring in Puerto Rico
+      url: https://rconnect.dfci.harvard.edu/covidpr/
+      description: This tool provides a detailed summary of the COVID-19 cases in
+        Puerto Rico provided by the PR Department of Health.
+      thumbnail: rconnect.dfci.harvard.edu_covidpr_.png
+      order: 9.0
+      tags: spanish, covid-19
+    - org: California Department of Public Health
+      title: CCB (Disease and Cost Engine)
+      url: https://skylab.cdph.ca.gov/communityBurden/#tab-2190-1
+      description: A tool that can explore data on burden of disease in multiple levels
+        of geographic granularity in order to answer and generate questions, both
+        simple and complex, about the intersection between health disparities and
+        place.
+      thumbnail: skylab.cdph.ca.gov_communityBurden_.png
+      order: 10.0
+      tags: map, trend, social determinants of health
+    - org: Oregon Health Authority
+      title: Oregon Injury Prevention Dashboard
+      url: https://oregoninjurydata.shinyapps.io/injury/
+      description: Oregon’s Injury and Violence Prevention Program uses data to understand
+        when and why violence, unintended injuries, and death occur.
+      thumbnail: oregoninjurydata.shinyapps.io_injury_.png
+      order: 11.0
+      tags: state, injury, map
+    - org: National Cancer Institute
+      title: Colorectal Cancer Cure Probability Calculator
+      url: https://appshare.cancer.gov/connect/
+      description: This app estimates the probability that a patient with colorectal
+        cancer is cured of their cancer.
+      thumbnail: appshare.cancer.gov_connect_.png
+      order: 12.0
+      tags: risk calculator, cancer, science, modeling
+    - org: FDA
+      title: 'GANo: GII.4 Epitope Tracker'
+      url: https://dnahive.fda.gov/vmap/norovirus/epitope/
+      description: This app provides curated and comprehensive databases for visualization
+        and analysis of norovirus genetic and antigenic diversification.
+      thumbnail: dnahive.fda.gov_vmap_norovirus_epitope_.png
+      order: 13.0
+      tags: epitope, map, norovirus, science
   order: 2.0
 - category: Public Service
   tiles:
+    - org: State of Indiana
+      title: Employer Connector
+      url: https://www.in.gov/che/cte/employer-connector/
+      description: The CTE Employer Connector tool allows employers to gather information
+        about students participating in CTE across the State of Indiana.
+      thumbnail: www.in.gov_che_cte_employer-connector_.png
+      order: 14.0
+      tags: state, employment, map, education
     - org: City of Reykjavik
       title: Áætlaður fjöldi gesta í Sundlaugum Reykjavíkur
       url: https://gestafjoldi.reykjavik.is/
@@ -107,6 +140,32 @@
       thumbnail: gestafjoldi.reykjavik.is_.png
       order: 15.0
       tags: streaming data, city, community service
+    - org: SSMSI
+      title: Cambriolages de logements à l'échelle infracommunale
+      url: https://ssmsi.shinyapps.io/cambriolageslogementsechelleinfracommunale/
+      description: 'Interstats: public statistics on insecurity and crime'
+      thumbnail: ssmsi.shinyapps.io_cambriolageslogementsechelleinfracommunale_.png
+      order: 16.0
+      tags: map, statistics, public service
+    - org: Jobs and Skills Australia (JSA)
+      title: Australia's Nowcast of Employment by Region and Occupation (NERO)
+      url: https://www.jobsandskills.gov.au/data/nero/nero-dashboard
+      description: Data on the current employment by occupation in each region, highlighting
+        changes in comparison with historical levels, using an emerging technique
+        known as nowcasting.
+      thumbnail: www.jobsandskills.gov.au_data_nero_nero-dashboard.png
+      order: 17.0
+      tags: map, statistics, public service
+    - org: UK Department for Transport
+      title: 'Road Safety Statistics: Collision Analysis Tool'
+      url: https://department-for-transport.shinyapps.io/collision_analysis_tool/
+      description: This data tool allows the user to customise and download data for
+        personal injury reported road collisions in Great Britain, based on data reported
+        by police using the STATS19 system which forms the basis of the department’s
+        published road casualty statistics.
+      thumbnail: department-for-transport.shinyapps.io_collision_analysis_tool_.png
+      order: 18.0
+      tags: data, transportation, injury, public service
     - org: University of Maryland Center for Environmental Science
       title: What will climate feel like in 60 years?
       url: https://fitzlab.shinyapps.io/cityapp/
@@ -120,62 +179,6 @@
       thumbnail: fitzlab.shinyapps.io_cityapp_.png
       order: 19.0
       tags: map, climate, science, public service
-  order: 3.0
-- category: Employment
-  tiles:
-    - org: State of Indiana
-      title: Employer Connector
-      url: https://www.in.gov/che/cte/employer-connector/
-      description: The CTE Employer Connector tool allows employers to gather information
-        about students participating in CTE across the State of Indiana.
-      thumbnail: www.in.gov_che_cte_employer-connector_.png
-      order: 14.0
-      tags: state, employment, map, education
-    - org: Jobs and Skills Australia (JSA)
-      title: Australia's Nowcast of Employment by Region and Occupation (NERO)
-      url: https://www.jobsandskills.gov.au/data/nero/nero-dashboard
-      description: Data on the current employment by occupation in each region, highlighting
-        changes in comparison with historical levels, using an emerging technique
-        known as nowcasting.
-      thumbnail: www.jobsandskills.gov.au_data_nero_nero-dashboard.png
-      order: 17.0
-      tags: map, statistics, public service
-  order: 4.0
-- category: Agriculture
-  tiles:
-    - org: University of Wisconsin-Madison
-      title: Agricultural Forecasting and Advisory System
-      url: https://connect.doit.wisc.edu/ag_forecasting/
-      description: This application provides weather-based forecasting and risk assessments
-        for various crop diseases, helping farmers, crop advisors, and agricultural
-        researchers to make data-driven decisions.
-      thumbnail: connect.doit.wisc.edu_ag_forecasting_.png.png
-      order: 6.0
-      tags: agriculture, science
-  order: 5.0
-- category: Medicine
-  tiles:
-    - org: National Cancer Institute
-      title: Colorectal Cancer Cure Probability Calculator
-      url: https://appshare.cancer.gov/connect/
-      description: This app estimates the probability that a patient with colorectal
-        cancer is cured of their cancer.
-      thumbnail: appshare.cancer.gov_connect_.png
-      order: 12.0
-      tags: risk calculator, cancer, science, modeling
-  order: 6.0
-- category: Crime
-  tiles:
-    - org: SSMSI
-      title: Cambriolages de logements à l'échelle infracommunale
-      url: https://ssmsi.shinyapps.io/cambriolageslogementsechelleinfracommunale/
-      description: 'Interstats: public statistics on insecurity and crime'
-      thumbnail: ssmsi.shinyapps.io_cambriolageslogementsechelleinfracommunale_.png
-      order: 16.0
-      tags: map, statistics, public service
-  order: 7.0
-- category: Politics
-  tiles:
     - org: John Helveston, George Washington University
       title: POTUS Economic Scorecard
       url: https://jhelvy.github.io/potus-econ-scorecard/
@@ -186,28 +189,4 @@
       thumbnail: jhelvy.github.io_potus-econ-scorecard_.png
       order: 20.0
       tags: economy, politics, shinylive, quarto
-  order: 8.0
-- category: Public Saftey
-  tiles:
-    - org: UK Department for Transport
-      title: 'Road Safety Statistics: Collision Analysis Tool'
-      url: https://department-for-transport.shinyapps.io/collision_analysis_tool/
-      description: This data tool allows the user to customise and download data for
-        personal injury reported road collisions in Great Britain, based on data reported
-        by police using the STATS19 system which forms the basis of the department’s
-        published road casualty statistics.
-      thumbnail: department-for-transport.shinyapps.io_collision_analysis_tool_.png
-      order: 18.0
-      tags: data, transportation, injury, public service
-  order: 9.0
-- category: Informatics
-  tiles:
-    - org: FDA
-      title: 'GANo: GII.4 Epitope Tracker'
-      url: https://dnahive.fda.gov/vmap/norovirus/epitope/
-      description: This app provides curated and comprehensive databases for visualization
-        and analysis of norovirus genetic and antigenic diversification.
-      thumbnail: dnahive.fda.gov_vmap_norovirus_epitope_.png
-      order: 13.0
-      tags: epitope, map, norovirus, science
-  order: 10.0
+  order: 3.0
