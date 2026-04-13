@@ -22,16 +22,9 @@ apps <- read_csv(here("data", "raw.csv")) |>
 
 cat_order <- tribble(
   ~category,         ~order,
-  "Natural Resources",    2,
-  "Public Health",        1,
-  "Employment",           4,
+  "Natural Resources",    1,
+  "Public Health",        2,
   "Public Service",       3,
-  "Agriculture",          5,
-  "Crime",                7,
-  "Informatics",         10,
-  "Medicine",             6,
-  "Politics",             8,
-  "Public Saftey",        9,
 )
 
 apps |>
