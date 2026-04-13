@@ -25,6 +25,7 @@ cat_order <- tribble(
   "Natural Resources",    1,
   "Public Health",        2,
   "Public Service",       3,
+  "National Statistics",  4,
 )
 
 apps |>

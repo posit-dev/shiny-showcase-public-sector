@@ -117,6 +117,25 @@
       thumbnail: dnahive.fda.gov_vmap_norovirus_epitope_.png
       order: 13.0
       tags: epitope, map, norovirus, science
+    - org: Kentucky Department of Public Health
+      title: Transcriptomic Atlas of Nervous System Tumors
+      url: https://kdph.shinyapps.io/atlas/
+      description: This project aims to bridge critical gaps in understanding the
+        molecular landscape of nervous system tumors by creating a comprehensive,
+        publicly accessible dataset of gene expression profiles.
+      thumbnail: kdph.shinyapps.io_atlas_.png
+      order: .na.real
+      tags: cancer
+    - org: Kentucky Department of Public Health
+      title: Public Health Transformation (PHT) Dashboard
+      url: https://kdph.shinyapps.io/pht-dashboard/
+      description: This site hosts Kentucky Local Health Departments' most recently
+        submitted Local Needs Assessment (LNA), also called Community Health Assessment
+        (CHA), Community Health Improvement Plan (CHIP) or Community Health Needs
+        Assessment (CHNA)
+      thumbnail: kdph.shinyapps.io_pht-dashboard_.png
+      order: .na.real
+      tags: administration
   order: 2.0
 - category: Public Service
   tiles:
@@ -190,3 +209,52 @@
       order: 20.0
       tags: economy, politics, shinylive, quarto
   order: 3.0
+- category: National Statistics
+  tiles:
+    - org: National Statistical Office (INDEC Argentina)
+      title: Integrated System of Social Statistics (SIES)
+      url: https://shiny.indec.gob.ar/sies/
+      description: Wellbeing indicators with a capabilities approach. With the aim
+        of presenting a federal approach to the state of well-being from a capabilities
+        perspective in Argentina, an interactive visualization of the Integrated Social
+        Statistics System (SIES) is now available.
+      thumbnail: shiny.indec.gob.ar_sies_.png
+      order: .na.real
+      tags: national statistics, demography
+    - org: National Statistical Office (INDEC Argentina)
+      title: Older Personas Dashboard
+      url: https://www.indec.gob.ar/indec/web/Nivel4-Tema-2-21-130
+      description: Dashboard that contains several demographic metrics of the elderly
+        population in Argentina. The metrics relate to aging, activity, access to
+        care, and others.  It is courtesy of the government's National Statistics
+        Institute (INDEC)
+      thumbnail: www.indec.gob.ar_indec_web_Nivel4-Tema-2-21-130.png
+      order: .na.real
+      tags: national statistics, demography, aging
+    - org: Central Statistical Office, Ireland
+      title: CSO Macroeconomic Dashboard
+      url: https://csoshiny.shinyapps.io/macro_dashboard/
+      description: Explore many of the key macroeconomic indicators for Ireland in
+        PxStat, the Central Statistics Office data dissemination tool.
+      thumbnail: csoshiny.shinyapps.io_macro_dashboard_.png
+      order: .na.real
+      tags: national statistics, economy
+    - org: UK National Audit Office
+      title: Analysis of the asylum system
+      url: https://nao-mesh.shinyapps.io/Asylum_Systems_Data_Visualisation/
+      description: A visual systems map of the asylum process. It shows which government
+        bodies are involved, how claims progress through each stage, and how people
+        are accommodated and supported while awaiting decisions.
+      thumbnail: nao-mesh.shinyapps.io_Asylum_Systems_Data_Visualisation_.png
+      order: .na.real
+      tags: national statistics, mental health
+    - org: Subsecretaría de Desarrollo Regional y Administrativo (SUBDERE)
+      title: Índice de Brechas de Género (Gender Gap Index)
+      url: https://www.descentralizachile.cl/ibg/
+      description: The Gender Gap Index (Índice de Brechas de Género) is a multidimensional
+        statistical tool that allows diagnosing the state of gender gaps at the smallest
+        administrative level (communes) and regions in Chile.
+      thumbnail: www.descentralizachile.cl_ibg_ (1).png
+      order: .na.real
+      tags: national statistics, gender
+  order: 4.0
