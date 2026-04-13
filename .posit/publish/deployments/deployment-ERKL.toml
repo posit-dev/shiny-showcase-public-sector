@@ -11,9 +11,9 @@ id = '008fe642-4cad-4dc4-9dcd-9157b4181fc9'
 dashboard_url = 'https://pub.current.posit.team/connect/#/apps/008fe642-4cad-4dc4-9dcd-9157b4181fc9'
 direct_url = 'https://pub.current.posit.team/content/008fe642-4cad-4dc4-9dcd-9157b4181fc9/'
 logs_url = 'https://pub.current.posit.team/connect/#/apps/008fe642-4cad-4dc4-9dcd-9157b4181fc9/logs'
-deployed_at = '2026-04-13T09:51:49-07:00'
-bundle_id = '11688'
-bundle_url = 'https://pub.current.posit.team/__api__/v1/content/008fe642-4cad-4dc4-9dcd-9157b4181fc9/bundles/11688/download'
+deployed_at = '2026-04-13T11:34:10-07:00'
+bundle_id = '11689'
+bundle_url = 'https://pub.current.posit.team/__api__/v1/content/008fe642-4cad-4dc4-9dcd-9157b4181fc9/bundles/11689/download'
 files = [
   '.posit/publish/Shiny in Public Sector-S0M5.toml',
   '.posit/publish/deployments/deployment-ERKL.toml',
