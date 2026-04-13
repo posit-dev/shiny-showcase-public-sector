@@ -30,6 +30,7 @@ cat_order <- tribble(
 apps |>
   arrange(order) |>
   group_by(category) |>
+  select(!new) |> 
   nest(.key = "tiles") |>
   left_join(cat_order) |>
   arrange(order) |>
