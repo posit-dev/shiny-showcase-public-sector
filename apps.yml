@@ -55,6 +55,15 @@
       thumbnail: connect.doit.wisc.edu_ag_forecasting_.png
       order: 6.0
       tags: agriculture, science
+    - org: European Commission Joint Research Centre
+      title: EF3.1 Ecotox Explorer
+      url: https://web.jrc.ec.europa.eu/rapps/pub/ecotox/
+      description: The EF3.1 Ecotox Explorer purpose is to support EF3.1 users to
+        understand how freshwater ecotoxicity CFs have been derived and which underlying
+        data have been used.
+      thumbnail: web.jrc.ec.europa.eu_rapps_pub_ecotox_.png
+      order: .na.real
+      tags: natural resources, statistics, ecotoxicity
   order: 1.0
 - category: Public Health
   tiles:
@@ -136,6 +145,16 @@
       thumbnail: kdph.shinyapps.io_pht-dashboard_.png
       order: .na.real
       tags: administration
+    - org: European Centre for Disease Prevention and Control (ECDC)
+      title: European Respiratory Virus Surveillance Summary (ERVISS)
+      url: http://erviss.org/
+      description: ERVISS provides a weekly integrated epidemiological summary for
+        influenza, respiratory syncytial virus (RSV) and severe acute respiratory
+        syndrome coronavirus 2 (SARS-CoV-2) for the European Union/European Economic
+        Area (EU/EEA) and the WHO European Region.
+      thumbnail: erviss.org_.png
+      order: .na.real
+      tags: coronvirus, influenza, Respiratory syncytial virus, infection, surveillance
   order: 2.0
 - category: Public Service
   tiles:
@@ -208,6 +227,16 @@
       thumbnail: jhelvy.github.io_potus-econ-scorecard_.png
       order: 20.0
       tags: economy, politics, shinylive, quarto
+    - org: European Commission Joint Research Centre
+      title: 'SIML@B: an EC tool for sensitivity analysis'
+      url: https://web.jrc.ec.europa.eu/rapps/pub/simlab/
+      description: The Competence Centre on Modelling (CC-MOD) of the Joint Research
+        Centre (Directorate General of the European Commission) has been developing
+        the present toolbox in order to help modellers perform uncertainty analysis
+        and sensitivity analysis of their models.
+      thumbnail: web.jrc.ec.europa.eu_rapps_pub_simlab_.png
+      order: .na.real
+      tags: statistics, modeling
   order: 3.0
 - category: National Statistics
   tiles:
@@ -257,4 +286,14 @@
       thumbnail: www.descentralizachile.cl_ibg_.png
       order: .na.real
       tags: national statistics, gender
+    - org: European Commission Joint Research Centre
+      title: Euro Area Macroeconomic Real-time Monitoring
+      url: https://web.jrc.ec.europa.eu/rapps/pub/ea-nowcasting/
+      description: The Nowcasting group at JRC, in cooperation with partner institutions,
+        develops econometric techniques and applies them for nowcasting and forecasting.
+        Nowcasting techniques exploit data that become available in real time (including
+        Big Data), so they can detect real time developments (for instance on GDP).
+      thumbnail: web.jrc.ec.europa.eu_rapps_pub_ea-nowcasting_.png
+      order: .na.real
+      tags: economics, statistics
   order: 4.0
