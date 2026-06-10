@@ -7,6 +7,7 @@ library(stringr)
 library(tibble)
 library(tidyr)
 library(here)
+source(here("R", "thumbnail-name.R"))
 
 # Pull from google drive
 sheet <- drive_download(
@@ -18,7 +19,11 @@ sheet <- drive_download(
 apps <- read_csv(here("data", "raw.csv")) |> 
   rename_all(tolower) |>
   rename(org = organization) |>
-  mutate(category = str_to_title(category))
+  mutate(
+    category = str_to_title(category),
+    # thumbnail is derived from the URL, not the sheet — see R/thumbnail-name.R
+    thumbnail = map_chr(url, thumbnail_name)
+  )
 
 cat_order <- tribble(
   ~category,         ~order,

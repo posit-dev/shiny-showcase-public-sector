@@ -52,7 +52,7 @@
       description: This application provides weather-based forecasting and risk assessments
         for various crop diseases, helping farmers, crop advisors, and agricultural
         researchers to make data-driven decisions.
-      thumbnail: connect.doit.wisc.edu_ag_forecasting_.png.png
+      thumbnail: connect.doit.wisc.edu_ag_forecasting_.png
       order: 6.0
       tags: agriculture, science
   order: 1.0
@@ -72,7 +72,7 @@
       description: This app provides data on state and local level drug-related overdose
         outcomes for California, including deaths, emergency department visits, and
         hospitalizations, as well as opioid and select other drug prescription data.
-      thumbnail: skylab.cdph.ca.gov_ODdash__tab=CA.png
+      thumbnail: skylab.cdph.ca.gov_ODdash_.png
       order: 8.0
       tags: opoid, overdose, surveillance, california, state, county,
     - org: Harvard
@@ -254,7 +254,7 @@
       description: The Gender Gap Index (Índice de Brechas de Género) is a multidimensional
         statistical tool that allows diagnosing the state of gender gaps at the smallest
         administrative level (communes) and regions in Chile.
-      thumbnail: www.descentralizachile.cl_ibg_ (1).png
+      thumbnail: www.descentralizachile.cl_ibg_.png
       order: .na.real
       tags: national statistics, gender
   order: 4.0
