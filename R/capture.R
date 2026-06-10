@@ -32,6 +32,8 @@ open_app <- function(url, width = 2400, height = 1600, zoom = 1.5, view = TRUE) 
     width = round(width / zoom), height = round(height / zoom),
     deviceScaleFactor = zoom, mobile = FALSE
   )
+  # Hide the scrollbar so tall apps don't leave a gray gutter on the right edge.
+  b$Emulation$setScrollbarsHidden(hidden = TRUE)
   b$Page$navigate(url)
   b$Page$loadEventFired()
   if (view) b$view()
