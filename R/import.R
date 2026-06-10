@@ -25,6 +25,18 @@ apps <- read_csv(here("data", "raw.csv")) |>
     thumbnail = map_chr(url, thumbnail_name)
   )
 
+# Stop if any app is missing its thumbnail — capture them with R/capture.R
+# (or the update-thumbnails skill) before regenerating apps.yml.
+missing <- apps |>
+  filter(!file.exists(here("thumbnails", thumbnail)))
+if (nrow(missing) > 0) {
+  stop(
+    "Missing thumbnails for ", nrow(missing), " app(s):\n",
+    paste0("  - ", missing$title, " (", missing$thumbnail, ")", collapse = "\n"),
+    call. = FALSE
+  )
+}
+
 cat_order <- tribble(
   ~category,         ~order,
   "Natural Resources",    1,

@@ -14,19 +14,29 @@ Never edit `apps.yml` directly — always update the Google Sheet and re-run the
 
 ### 1. Edit the Google Sheet
 
-Add, remove, or edit rows. Each row has: Organization, Title, URL, Description, Thumbnail, order, category, tags.
+Add, remove, or edit rows. Each row has: Organization, Title, URL, Description, order, category, tags. You don't need to fill in a `Thumbnail` value — the filename is derived from the URL (see below).
 
 ### 2. Add a thumbnail
 
-Take a screenshot of the app at **2400x1600** pixels. Navigate to an interesting view first. In Chrome, you can use DevTools to set a custom device size, or take a full-size screenshot and crop.
-
-Save the file to `thumbnails/` using the naming convention: the app URL with protocol stripped and slashes replaced by underscores, plus `.png`. For example:
+Thumbnail filenames are **derived from the app URL**, so the `Thumbnail` column in the sheet is no longer used. `thumbnail_name()` in `R/thumbnail-name.R` is the single source of truth: it strips the protocol and any `#fragment`/`?query`, replaces slashes with underscores, and appends `.png`. For example:
 
 ```
 https://rconnect.usgs.gov/PA_radon_map/  ->  rconnect.usgs.gov_PA_radon_map_.png
 ```
 
-Make sure the `Thumbnail` column in the Google Sheet matches the filename.
+To capture screenshots, run the **`/update-thumbnails` skill** (works in Claude Code and Posit Assistant), or do it by hand in R:
+
+```r
+source("R/capture.R")
+url <- "https://kdph.shinyapps.io/atlas/"
+b <- open_app(url)        # opens a viewable browser window at 2400x1600
+# interact in the window (dismiss dialogs, click tabs, scroll),
+# or drive it: b$Runtime$evaluate('document.querySelector("...").click()')
+capture_app(b, url)       # saves thumbnails/<derived name>.png
+b$close()
+```
+
+A "new app" is any row whose derived filename is missing from `thumbnails/`.
 
 ### 3. Run the import script
 
@@ -76,6 +86,9 @@ index.qmd             # Main page
 showcase.ejs          # Card layout template
 thumbnails/           # App screenshot images (2400x1600)
 R/import.R            # Script to pull from Google Sheet and generate apps.yml
+R/capture.R          # open_app()/capture_app() helpers for screenshotting apps
+R/thumbnail-name.R   # thumbnail_name(): canonical URL -> filename convention
+.agents/skills/      # update-thumbnails skill (symlinked into .claude/skills/)
 _brand.yml            # Posit brand colors and typography
 _variables.yml        # Site-level variables (vertical name, URLs)
 _quarto.yml           # Quarto project config
