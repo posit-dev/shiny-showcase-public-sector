@@ -10,9 +10,9 @@ id = "008fe642-4cad-4dc4-9dcd-9157b4181fc9"
 dashboard_url = "https://pub.current.posit.team/connect/#/apps/008fe642-4cad-4dc4-9dcd-9157b4181fc9"
 direct_url = "https://pub.current.posit.team/content/008fe642-4cad-4dc4-9dcd-9157b4181fc9/"
 logs_url = "https://pub.current.posit.team/connect/#/apps/008fe642-4cad-4dc4-9dcd-9157b4181fc9/logs"
-deployed_at = "2026-07-30T17:53:06.303Z"
-bundle_id = "13272"
-bundle_url = "https://pub.current.posit.team/__api__/v1/content/008fe642-4cad-4dc4-9dcd-9157b4181fc9/bundles/13272/download"
+deployed_at = "2026-07-30T17:59:38.693Z"
+bundle_id = "13273"
+bundle_url = "https://pub.current.posit.team/__api__/v1/content/008fe642-4cad-4dc4-9dcd-9157b4181fc9/bundles/13273/download"
 files = [
     ".posit/publish/Shiny in Public Sector-S0M5.toml",
     ".posit/publish/deployments/deployment-ERKL.toml",
@@ -47,6 +47,7 @@ files = [
     "thumbnails/rconnect.usgs.gov_PA_radon_map_.png",
     "thumbnails/rconnect.usgs.gov_battool_.png",
     "thumbnails/rconnect.usgs.gov_seed-toolkit_.png",
+    "thumbnails/reporting.bccdc.ca_CDapp_.png",
     "thumbnails/shiny.indec.gob.ar_sies_.png",
     "thumbnails/skylab.cdph.ca.gov_ODdash_.png",
     "thumbnails/skylab.cdph.ca.gov_communityBurden_.png",
