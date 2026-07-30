@@ -64,6 +64,15 @@
       thumbnail: web.jrc.ec.europa.eu_rapps_pub_ecotox_.png
       order: .na.real
       tags: natural resources, statistics, ecotoxicity
+    - org: Norwegian Veterinary Institute
+      title: Laksetap (Salmonid Loss) app
+      url: https://apps.vetinst.no/laksetap/
+      description: The Laksetap (Salmonid Loss) app offers interactive visualizations
+        of farmed salmonid mortality and losses in Norway to support food security
+        and biosecurity in Norway's aquaculture industry.
+      thumbnail: apps.vetinst.no_laksetap_.png
+      order: .na.real
+      tags: food security, health, biosecurity
   order: 1.0
 - category: Public Health
   tiles:
