@@ -164,6 +164,14 @@
       thumbnail: erviss.org_.png
       order: .na.real
       tags: coronvirus, influenza, Respiratory syncytial virus, infection, surveillance
+    - org: BC Centre for Disease Control
+      title: Communicable Disease Dashboard
+      url: https://reporting.bccdc.ca/CDapp/
+      description: This interactive tool summarizes case data on reportable diseases
+        and conditions in British Columbia (BC)
+      thumbnail: reporting.bccdc.ca_CDapp_.png
+      order: .na.real
+      tags: disease, health, surveillence
   order: 2.0
 - category: Public Service
   tiles:
