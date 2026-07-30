@@ -254,6 +254,15 @@
       thumbnail: web.jrc.ec.europa.eu_rapps_pub_simlab_.png
       order: .na.real
       tags: statistics, modeling
+    - org: Cabinet Office, UK Government
+      title: ALB Landscape Data Explorer
+      url: https://civil-service-analysis.shinyapps.io/ALB_Landscape_Analysis_Explorer/
+      description: An interactive tool for exploring the staffing, finance, and accountability
+        data for the UK Government's Arm's Length Bodies (ALBs). The app features
+        a plot builder, and allows for dynamic dataset generation for further analyses.
+      thumbnail: civil-service-analysis.shinyapps.io_ALB_Landscape_Analysis_Explorer_.png
+      order: .na.real
+      tags: .na.character
   order: 3.0
 - category: National Statistics
   tiles:
