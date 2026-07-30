@@ -2,7 +2,7 @@
 "$schema" = "https://cdn.posit.co/publisher/schemas/posit-publishing-record-schema-v3.json"
 server_type = "connect"
 server_url = "https://pub.current.posit.team"
-client_version = "2.9.12"
+client_version = "2.9.13"
 created_at = "2025-11-18T20:08:18.350Z"
 type = "quarto-static"
 configuration_name = "Shiny in Public Sector-S0M5"
@@ -10,9 +10,9 @@ id = "008fe642-4cad-4dc4-9dcd-9157b4181fc9"
 dashboard_url = "https://pub.current.posit.team/connect/#/apps/008fe642-4cad-4dc4-9dcd-9157b4181fc9"
 direct_url = "https://pub.current.posit.team/content/008fe642-4cad-4dc4-9dcd-9157b4181fc9/"
 logs_url = "https://pub.current.posit.team/connect/#/apps/008fe642-4cad-4dc4-9dcd-9157b4181fc9/logs"
-deployed_at = "2026-07-30T17:59:56.307Z"
-bundle_id = "13273"
-bundle_url = "https://pub.current.posit.team/__api__/v1/content/008fe642-4cad-4dc4-9dcd-9157b4181fc9/bundles/13273/download"
+deployed_at = "2026-07-30T18:42:39.222Z"
+bundle_id = "13274"
+bundle_url = "https://pub.current.posit.team/__api__/v1/content/008fe642-4cad-4dc4-9dcd-9157b4181fc9/bundles/13274/download"
 files = [
     ".posit/publish/Shiny in Public Sector-S0M5.toml",
     ".posit/publish/deployments/deployment-ERKL.toml",
@@ -28,6 +28,7 @@ files = [
     "styles.scss",
     "thumbnails/apps.vetinst.no_laksetap_.png",
     "thumbnails/appshare.cancer.gov_connect_.png",
+    "thumbnails/civil-service-analysis.shinyapps.io_ALB_Landscape_Analysis_Explorer_.png",
     "thumbnails/connect.doit.wisc.edu_ag_forecasting_.png",
     "thumbnails/connect.fisheries.noaa.gov_ANRC_.png",
     "thumbnails/csoshiny.shinyapps.io_macro_dashboard_.png",
